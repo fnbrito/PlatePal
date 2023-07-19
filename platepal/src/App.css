@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  background-color: #800020;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.row {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.cards-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+}
+
+.custom-navbar {
+  background-color: #f7c4b8;
+}
+
+.platepal-secondary {
+  color: #f7c4b8;
+}
+
+.platepal-button-primary {
+  background-color: #800020 !important;
+  border-color: #ffffff !important;
+}
+
+.platepal-button-tertiary {
+  background-color: #235117 !important;
+  border-color: #ffffff !important;
+}
+
+.logo {
+  font-family: "Antic Didone", Arial, sans-serif;
+  margin-left: 2vw;
+}
+
+.footer {
+  background-color: #5d0017;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.light-text {
+  color: #f0f0f0;
+}
+
+.expanded-recipe {
+  margin-left: 15%;
+  margin-right: 15%;
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.ingredients-list {
+  list-style-position: inside;
+}
+
+.recipe-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .cards-container {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .row.align-items-center.justify-content-center.h-50.w-100 {
+    width: 100%;
+  }
+  .col-10.col-sm-7.col-lg-6.ol-md-7.col-xl-4 {
+    width: 100%;
+  }
+}
+
+@font-face {
+  font-family: "Antic Didone";
+  src: url("./fonts/Antic_Didone/AnticDidone-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

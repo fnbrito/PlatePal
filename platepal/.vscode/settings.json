@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/98f14fbe-6ac8-4099-9d0a-7ec1c901ff34/resourceGroups/platepal-app_group/providers/Microsoft.Web/sites/platepal-app",
+    "appService.deploySubpath": "."
+}
